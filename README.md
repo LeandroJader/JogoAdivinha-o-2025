@@ -1,0 +1,1 @@
+# JogoAdivinhação-2025
