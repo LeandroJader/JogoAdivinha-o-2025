@@ -26,10 +26,9 @@
                 else if (DificuldadeDificil(opcaoDificuldade))
                     totalDeTentativas = 3;
 
-                // Geração de número secreto
-                Random geradorDeNumeros = new Random();
+                int numeroSecreto=Funcoesjogo.GerarNumerosAleatorios();
 
-                int numeroSecreto = geradorDeNumeros.Next(1, 21);
+
 
                 // Loop de tentativas do jogo
                 for (int tentativa = 1; tentativa <= totalDeTentativas; tentativa++)
